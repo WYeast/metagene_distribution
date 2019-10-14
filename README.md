@@ -4,7 +4,7 @@ distribution.sh, other perl scripts should be put within same file, then run:
 
 sh distribution.sh
 
-In this script, genomic coordinations of peaks' summit are converted to transcriptomic coordinations. Then the peaks was annotated with features 
+In this script, genomic coordinations of peaks' summit are converted to transcriptomic coordinations, then annotated with features 
 (5utr/cds/3utr) where they locate. Finally, the relative position of peaks on a virtual transcript are calculated and then assigned to the different bins.
 Histogram of peak numbers within each bin is drawn to generate metagene profile.
 
